@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 import pandas as pd
 
 # Initialize YouTube API
-API_KEY = "AIzaSyAjOUdcssXucuBa15XFEcwU0lyvEAVX5cM"  # Replace with your API key
+API_KEY = ""  # Replace with your API key
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # Fetch channel stats
